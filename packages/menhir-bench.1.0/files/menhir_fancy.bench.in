@@ -1,0 +1,4 @@
+((name menhir-fancy)
+ (descr "menhir fancy-parser.mly")
+ (cmd (%{bin}%/menhir %{share}%/fancy-parser.mly))
+ (speed Fast) (discard (Stdout)))
